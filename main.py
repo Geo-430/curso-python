@@ -1,2 +1,4 @@
 with open("notas.txt", "a") as arquivo:
-    arquivo.write("3. Viajar pelo mundo\n")
+    conteudo = arquivo.read()
+    print("Conteúdo guardado no arquivo:")
+    print(conteudo)
